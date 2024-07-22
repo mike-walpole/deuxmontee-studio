@@ -58,6 +58,18 @@ export const prod = defineType({
       },
     },
     {
+      name: 'cat',
+      title: 'Cat',
+      type: 'string',
+      options: {
+        list: [
+          {title: 'Clothing', value: 'clothing'},
+          {title: 'Accessories', value: 'accessories'},
+          {title: 'Shoes', value: 'shoes'},
+        ],
+      },
+    },
+    {
       name: 'featured',
       title: 'Featured',
       type: 'boolean',
@@ -71,6 +83,7 @@ export const prod = defineType({
     {
       name: 'Category',
       type: 'object',
+
       fields: [
         {
           title: 'Category',
