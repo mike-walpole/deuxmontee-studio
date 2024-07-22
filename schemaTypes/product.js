@@ -25,6 +25,7 @@ export const product = defineType({
       name: "mainImage",
       options: { hotspot: true },
     }),
+    
     defineField({
       type: "array",
       name: "variants",
